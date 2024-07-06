@@ -48,7 +48,7 @@ To clone and run this server, you will need the following installed on your mach
 
     Start the server by running:
     ```sh
-    npm start
+    npm run startDev
     ```
 
     The server should now be running on `http://localhost:3000`.
