@@ -40,7 +40,6 @@ app.get("/", isAuthenticated, async (req, res) => {
 });
 
 app.get("/login", (req, res) => {
-  console.log(1)
   if (req.session && req.session.userid) {
     res.redirect("/")
   } else {
