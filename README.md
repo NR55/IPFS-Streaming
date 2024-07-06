@@ -2,7 +2,7 @@
 
 **IPFlickS** is a video streaming service leveraging IPFS (InterPlanetary File System) to store and stream video content efficiently. The service implements adaptive bit-rate streaming to optimize video quality based on the viewer's current network conditions. This repository contains the server-side implementation using Node.js, Express, and MongoDB, with video processing handled by FFmpeg and IPFS integration facilitated by Pinata.
 
-### Requirements
+## Requirements
 
 To clone and run this server, you will need the following installed on your machine:
 
@@ -11,7 +11,7 @@ To clone and run this server, you will need the following installed on your mach
 3. **FFmpeg** (for video processing)
 4. **Pinata** account (for IPFS storage)
 
-### Instructions to Clone and Run the Server
+## Instructions to Clone and Run the Server
 
 1. **Clone the Repository**
 
@@ -53,7 +53,7 @@ To clone and run this server, you will need the following installed on your mach
 
     The server should now be running on `http://localhost:3000`.
 
-### Key Features
+## Key Features
 
 - **Adaptive Bit-Rate Streaming**: Adjusts video quality based on network conditions.
 - **Video Chunking with FFmpeg**: Processes videos into 10-second chunks at various resolutions.
