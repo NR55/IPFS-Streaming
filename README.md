@@ -71,4 +71,4 @@ Adaptive Bit Rate
     npm run startDev
     ```
 
-    The server should now be running on `http://localhost:3000`.
+    The server should now be running on `http://localhost:5000`.
